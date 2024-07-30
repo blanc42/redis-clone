@@ -17,9 +17,7 @@ This is a simple Redis clone implemented in Go. It supports basic Redis commands
 
 To run the server:
 
-```
-go run cmd/server/main.go
-```
+`go run cmd/server/main.go`
 
 The server will start listening on port 6379 by default.
 
