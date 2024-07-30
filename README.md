@@ -1,7 +1,3 @@
-
-11. README.md:
-
-```markdown:README.md
 # Redis Clone
 
 This is a simple Redis clone implemented in Go. It supports basic Redis commands and uses an in-memory data store.
@@ -20,6 +16,16 @@ To run the server:
 `go run cmd/server/main.go`
 
 The server will start listening on port 6379 by default.
+
+To connect to the server, use redis-cli:
+
+`redis-cli -p 6379`
+
+```
+SET mykey "Hello, Redis!"
+GET mykey
+```
+
 
 ## Supported Commands
 
