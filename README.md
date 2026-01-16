@@ -30,7 +30,6 @@ GET mykey
 ## Supported Commands
 
 - GET
-- SET
 
 More commands will be added in future updates.
 
